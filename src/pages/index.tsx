@@ -22,7 +22,7 @@ export default function Home() {
           url: siteMetadata.siteUrl,
           title: "Abdullah Faiaz - React and Frontend Developer Portfolio",
           description:
-            "Dive into the world of web development with Abdullah Faiaz. Discover a React and Frontend Developer with 2 years of expertise, showcasing cutting-edge projects and a commitment to crafting exceptional user interfaces.",
+            "Dive into the world of web development with Abdullah Faiaz. Discover a MERN Stack developer with focus on React.js with 1 year of expertise, showcasing cutting-edge projects and a commitment to crafting exceptional user interfaces.",
           images: [
             {
               url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
