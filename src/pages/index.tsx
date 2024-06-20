@@ -15,14 +15,14 @@ export default function Home() {
     <>
       <CursorTrailCanvas className="pointer-events-none fixed inset-0 -z-10 h-full w-full" />
       <NextSeo
-        title="Abdullah Faiaz | React and Frontend Developer"
-        description="Explore the professional portfolio of Abdullah Faiaz, a skilled React and Frontend Developer with 2 years of hands-on experience. Discover innovative projects, expertise in modern web technologies, and a passion for creating seamless user experiences."
+        title="Abdullah Faiaz | MERN Stack Developer"
+        description="Explore the professional portfolio of Abdullah Faiaz, a skilled MERN Stack Developer with 2 years of hands-on experience. Discover innovative projects, expertise in modern web technologies, and a passion for creating seamless user experiences."
         canonical={siteMetadata.siteUrl}
         openGraph={{
           url: siteMetadata.siteUrl,
-          title: "Abdullah Faiaz - React and Frontend Developer Portfolio",
+          title: "Abdullah Faiaz - MERN Stack Developer Portfolio",
           description:
-            "Dive into the world of web development with Abdullah Faiaz. Discover a MERN Stack developer with focus on React.js with 1 year of expertise, showcasing cutting-edge projects and a commitment to crafting exceptional user interfaces.",
+            "Dive into the world of web development with Abdullah Faiaz. Discover a MERN Stack developer with 1 year of expertise, showcasing cutting-edge projects and a commitment to crafting exceptional user interfaces.",
           images: [
             {
               url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,

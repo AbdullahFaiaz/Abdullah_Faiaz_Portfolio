@@ -7,15 +7,15 @@ export default function Projects() {
   return (
     <>
       <NextSeo
-        title="Projects by Abdullah Faiaz - React and Frontend Developer Portfolio"
-        description="Explore a collection of projects by Abdullah Faiaz, a seasoned React and Frontend Developer. From innovative web applications to responsive interfaces, discover the depth and diversity of my work."
+        title="Projects by Abdullah Faiaz - MERN Stack Developer Portfolio"
+        description="Explore a collection of projects by Abdullah Faiaz, a seasoned MERN Stack Developer. From innovative web applications to responsive interfaces, discover the depth and diversity of my work."
         canonical={`${siteMetadata.siteUrl}/projects`}
         openGraph={{
           url: `${siteMetadata.siteUrl}/projects`,
           title:
-            "Discover Projects by Abdullah Faiaz - React and Frontend Developer",
+            "Discover Projects by Abdullah Faiaz - MERN Stack Developer",
           description:
-            "Explore a showcase of projects crafted by Abdullah Faiaz, a React and Frontend Developer. Witness the fusion of creativity and technology in web development.",
+            "Explore a showcase of projects crafted by Abdullah Faiaz, a MERN Stack Developer. Witness the fusion of creativity and technology in web development.",
           images: [
             {
               url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
@@ -83,15 +83,15 @@ export default function Projects() {
 //   return (
 //     <>
 //       <NextSeo
-//         title="Projects by Abdullah Faiaz - React and Frontend Developer Portfolio"
-//         description="Explore a collection of projects by Abdullah Faiaz, a seasoned React and Frontend Developer. From innovative web applications to responsive interfaces, discover the depth and diversity of my work."
+//         title="Projects by Abdullah Faiaz - MERN Stack Developer Portfolio"
+//         description="Explore a collection of projects by Abdullah Faiaz, a seasoned MERN Stack Developer. From innovative web applications to responsive interfaces, discover the depth and diversity of my work."
 //         canonical={`${siteMetadata.siteUrl}/projects`}
 //         openGraph={{
 //           url: `${siteMetadata.siteUrl}/projects`,
 //           title:
-//             "Discover Projects by Abdullah Faiaz - React and Frontend Developer",
+//             "Discover Projects by Abdullah Faiaz - MERN Stack Developer",
 //           description:
-//             "Explore a showcase of projects crafted by Abdullah Faiaz, a React and Frontend Developer. Witness the fusion of creativity and technology in web development.",
+//             "Explore a showcase of projects crafted by Abdullah Faiaz, a MERN Stack Developer. Witness the fusion of creativity and technology in web development.",
 //           images: [
 //             {
 //               url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
