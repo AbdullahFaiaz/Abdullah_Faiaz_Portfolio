@@ -1,7 +1,7 @@
 # Portfolio
 
 This portfolio is crafted using [Next.js](https://nextjs.org/)
-
+<!-- 
 ## 🖥️ Technologies Used
 
 - [Nextjs.js](https://nextjs.org/) : A React-based, open-source framework for building efficient and scalable web applications.
@@ -26,18 +26,6 @@ If you have any improvements, ideas or find any bugs, don't hesitate to submit a
 
 There are some premade themes that I have made for this portfolio inside `theme-examples.css` file. Just copy paste the styles to `globals.css` after that you are good to go or Create your own theme by editing the css variables in `globals.css`
 
-### Note
-
-1. When creating custom theme the css variables only take hsl value seperated by space
-2. Theme color for Animated Logo have to be hard coded.
-
-#### Eg. Some Premade themes
-
-![Violet-theme](https://github.com/BUMBAIYA/faiaz/assets/85615075/25db6c35-f9e2-4c19-9060-cac2f0b544de)
-![rose-theme](https://github.com/BUMBAIYA/faiaz/assets/85615075/f5dd1b90-3297-440d-a83c-d79c1cef7bd0)
-![yellow-theme](https://github.com/BUMBAIYA/faiaz/assets/85615075/e5576e96-0d9d-4f37-a7ad-e14ffa5b1d21)
-
-## ✉️ Setup Nodemailer
 
 ### Create Nodemailer User and Password
 
@@ -69,4 +57,4 @@ pnpm install
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the portfolio.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the portfolio. -->
