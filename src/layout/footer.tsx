@@ -12,7 +12,7 @@ export default function Footer() {
           </span>
         </div>
         <a
-          href={`mailto:${siteMetadata.email}`}
+          href={`${siteMetadata.email}`}
           target="_blank"
           className="mb-6 cursor-pointer text-center text-2xl font-bold underline sm:text-4xl lg:text-7xl"
         >
