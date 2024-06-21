@@ -12,14 +12,16 @@ export default function AboutHero() {
       <div className="w-full sm:w-1/2 md:w-2/3 lg:inline-block lg:h-full lg:w-1/2">
         <AnimatePresence>
           <FadeUp key="hero-image" duration={0.6}>
+            <div className="xl:px-16">
             <Image
               src={heroProfileImg}
               width={100}
               height={100}
-              className="h-auto w-full px-0 xl:px-16"
+              className="h-auto w-full rounded-full border px-0"
               alt="hero image"
               unoptimized
             />
+            </div>
           </FadeUp>
         </AnimatePresence>
       </div>
@@ -32,15 +34,15 @@ export default function AboutHero() {
           </FadeUp>
           <FadeUp key="description-1" duration={0.6} delay={0.2}>
             <p className="mt-8 text-base font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
-              I turn vision into reality with code. Whether I&apos;m working on
-              a website or any digital product, I bring my commitment to design
-              excellence and user-centered thinking to every project I work on.
+              I turn vision into reality with code. I create elegant websites
+              where every line of code receives thoughtful attention, resulting
+              in a polished user experience.
             </p>
           </FadeUp>
           <FadeUp key="description-2" duration={0.6} delay={0.4}>
             <p className="mt-8 text-base font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
               Explore my latest projects showcasing my expertise in Reactjs,
-              Nextjs, Javascript, Typescript and web development.
+              Nextjs, Javascript and other web development technologies.
             </p>
           </FadeUp>
           <FadeRight
