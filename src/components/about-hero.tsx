@@ -13,14 +13,14 @@ export default function AboutHero() {
         <AnimatePresence>
           <FadeUp key="hero-image" duration={0.6}>
             <div className="xl:px-16">
-            <Image
-              src={heroProfileImg}
-              width={100}
-              height={100}
-              className="h-auto w-full rounded-full border px-0"
-              alt="hero image"
-              unoptimized
-            />
+              <Image
+                src={heroProfileImg}
+                width={100}
+                height={100}
+                className="h-auto w-full rounded-full border px-0"
+                alt="hero image"
+                unoptimized
+              />
             </div>
           </FadeUp>
         </AnimatePresence>
