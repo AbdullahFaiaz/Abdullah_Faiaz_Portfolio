@@ -98,7 +98,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     liveWebsiteHref: "https://adventureavenue-76979.web.app/",
   },
   {
-    name: "My portfolio",
+    name: "Harmony Homes",
     favicon: "/images/projects/logos/HH.ico",
     imageUrl: [
       "/images/projects/HH1.webp",
