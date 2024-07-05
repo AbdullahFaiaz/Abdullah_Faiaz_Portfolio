@@ -1,10 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 
 import { AnimatePresence, motion } from "framer-motion";
-
 import FadeUp from "@/animation/fade-up";
-import { Link } from "lucide-react";
-
 export default function LandingHero() {
   const [scrollY, setScrollY] = useState(0);
   const ref = useRef<HTMLDivElement>(null);
