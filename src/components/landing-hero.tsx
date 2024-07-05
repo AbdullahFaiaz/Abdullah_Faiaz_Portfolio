@@ -3,6 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
 import FadeUp from "@/animation/fade-up";
+import { Link } from "lucide-react";
 
 export default function LandingHero() {
   const [scrollY, setScrollY] = useState(0);
@@ -32,7 +33,7 @@ export default function LandingHero() {
       }}
       transition={{ type: "spring", stiffness: 100 }}
       ref={ref}
-      className="pointer-events-none flex h-[calc(100vh-112px)] items-center px-6 sm:px-14 md:px-20"
+      className="flex h-[calc(100vh-112px)] items-center px-6 sm:px-14 md:px-20"
     >
       <div className="-mt-[112px] w-full">
         <div className="mx-auto max-w-7xl">
@@ -51,6 +52,16 @@ export default function LandingHero() {
                 I&apos;m
                 <span className="text-accent"> Abdullah Faiaz</span> , I turn
                 vision into reality with code and design.
+              </div>
+              <div className="mt-[20px]">
+                <a
+                  href="https://drive.google.com/uc?export=download&id=1ayrycj8l7gj-BZGMMmbR3MhSMvH665kB"
+                  download
+                >
+                  <button className="rounded-full bg-[#4ca4a9] px-4 py-2 font-bold text-white hover:bg-[#4ca4a9]">
+                    Download My Resume
+                  </button>
+                </a>
               </div>
             </FadeUp>
           </AnimatePresence>
