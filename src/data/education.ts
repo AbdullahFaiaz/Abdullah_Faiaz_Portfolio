@@ -11,14 +11,14 @@ export const EDUCATION: ExperienceShowcaseListItemProps[] = [
     location: "Mirpur, Dhaka",
     description: "",
   },
-  {
-    title: "Masters Of Law",
-    organisation: {
-      name: "Bangladesh University of Professionals",
-      href: "https://www.bup.edu.bd/",
-    },
-    date: "2024-Running",
-    location: "Mirpur, Dhaka",
-    description: "",
-  },
+  // {
+  //   title: "Masters Of Law",
+  //   organisation: {
+  //     name: "Bangladesh University of Professionals",
+  //     href: "https://www.bup.edu.bd/",
+  //   },
+  //   date: "2024-Running",
+  //   location: "Mirpur, Dhaka",
+  //   description: "",
+  // },
 ];
