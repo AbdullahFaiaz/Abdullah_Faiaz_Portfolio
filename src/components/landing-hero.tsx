@@ -52,7 +52,7 @@ export default function LandingHero() {
               </div>
               <div className="mt-[20px]">
                 <a
-                  href="https://drive.google.com/uc?export=download&id=1ayrycj8l7gj-BZGMMmbR3MhSMvH665kB"
+                  href="https://drive.google.com/drive/u/0/folders/1m3nsKsPGkq9u02-ESJnkVl7_Gh5f-zUh"
                   download
                 >
                   <button className="rounded-full bg-[#4ca4a9] px-4 py-2 font-bold text-white hover:bg-[#4ca4a9]">
